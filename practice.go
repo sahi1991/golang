@@ -7,7 +7,7 @@ import (
 )
 
 func main(){
-db,err := sql.Open("conn", "server=localhost;user id=.)
+db,err := sql.Open("conn", "server=localhost;user id=SAHITHYA-PC\\SAHITHYA;password=pasword;")
 if err  != nil {
 fmt.Println("  Error open db:", err.Error())
 }
